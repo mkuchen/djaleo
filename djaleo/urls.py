@@ -1,7 +1,7 @@
 from django.conf.urls import patterns, include, url
 from django.conf import settings
 from django.contrib import admin
-from apps.store.views import HomeView
+from apps.info.views import HomeView
 
 admin.autodiscover()
 
