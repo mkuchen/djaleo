@@ -100,3 +100,8 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
 )
+
+TEMPLATE_DIRS = (
+    #"/usr/local/lib/python2.7/dist-packages/django_debug_toolbar-1.0.1-py2.7.egg/debug_toolbar/templates",
+    os.path.join(SETTINGS_PATH, 'templates'),
+)
