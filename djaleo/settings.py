@@ -36,6 +36,9 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'djaleo.apps.store',
+    'djaleo,apps.info',
+    'south',
 )
 
 MIDDLEWARE_CLASSES = (
