@@ -4,7 +4,7 @@ from django.http import Http404, HttpResponse, HttpResponseRedirect, HttpRespons
 from django.shortcuts import get_object_or_404, redirect, render
 
 class HomeView(View):
-	template_name = 'info/home.html'
+	template_name = 'info/base.html'
 
 	def get(self, request, *args, **kwargs):
 		context = {}
