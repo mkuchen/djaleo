@@ -1,0 +1,43 @@
+{% extends "info/base.html" %}
+
+{% load staticfiles %}
+
+
+{% block content %}
+	<div class="quadrant" id="q-one">
+		<div class="heading-outer">
+			<div class="heading-inner">
+				<a href="#"><h3> Home </h3></a>
+			</div>
+		</div>
+		<ul class="main-circle" id="top-left">
+			<li class="option"><a href="#"><h5>What we do</h5></a></li>
+			<li class="option"><a href="#"><h5>Why we do it</h5></a></li>
+			<li class="option"><a href="#"><h5>How we do it</h5></a></li>
+		</ul>
+	</div>
+
+	<div class="quadrant" id="q-two">
+		<ul class="main-circle" id="top-right">
+
+		</ul>
+	</div>
+
+	<div class="quadrant" id="q-three">
+		<ul class="main-circle" id="bottom-left">
+
+		</ul>
+	</div>
+
+	<div class="quadrant" id="q-four">
+		<ul class="main-circle" id="bottom-right">
+
+		</ul>
+	</div>
+{% endblock %}
+
+{% block scripts %}
+	<script type="text/javascript">
+		
+	</script>
+{% endblock %}
