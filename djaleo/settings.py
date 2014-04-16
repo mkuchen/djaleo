@@ -36,8 +36,8 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'djaleo.apps.store',
-    'djaleo,apps.info',
+    'apps.store',
+    'apps.info',
     'south',
 )
 
@@ -58,8 +58,10 @@ WSGI_APPLICATION = 'djaleo.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/1.6/ref/settings/#databases
 import dj_database_url
-DATABASES = {}
-DATABASES['default'] = dj_database_url.config()
+DATABASES = {'default':dj_database_url.config(default=os.getenv('DATABASE_URL'))}
+#DATABASES['default'] = dj_database_url.config(default=os.getenv('DATABASE_URL'))
+#DATABASES['default']['ENGINE'] = 'django.db.backends.postgresql_psycopg2'
+
 #DATABASES['default'] =  dj_database_url.config(default=os.getenv('DATABASE_URL'))
 
 # Honor the 'X-Forwarded-Proto' header for request.is_secure()
