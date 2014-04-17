@@ -181,6 +181,7 @@ div#q-four ul#bottom-right {
 }
 
 ul.main-circle li.option {
+	border: 8px solid #ffffff;
 	width: 120px;
 	height: 120px;
 	border-radius: 60px;
@@ -230,6 +231,10 @@ ul.main-circle li a h5 {
 	color: #ffffff;
 }
 
+.hover-bold {
+	text-decoration: underline;
+}
+
 div#q-one ul.main-circle li:nth-child(1) {
 	top: 40px;
 	left: 40px;
@@ -253,7 +258,6 @@ div#q-one:hover ul.main-circle li:hover {
 	-webkit-box-shadow: 0 0 30px rgba(50, 50, 50, 0.75);
 	-moz-box-shadow: 0 0 30px rgba(50, 50, 50, 0.75);
 	box-shadow: 0 0 30px rgba(50, 50, 50, 0.75);
-	border: 5px solid black;
 }
 
 div#q-one:hover ul.main-circle li:nth-child(1) {

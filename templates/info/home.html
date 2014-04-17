@@ -7,7 +7,7 @@
 	<div class="quadrant" id="q-one">
 		<div class="heading-outer">
 			<div class="heading-inner">
-				<a href="#"><h3> Home </h3></a>
+				<a href="#"><h3 id="home-heading"> Home </h3></a>
 			</div>
 		</div>
 		<ul class="main-circle" id="top-left">
@@ -38,6 +38,11 @@
 
 {% block scripts %}
 	<script type="text/javascript">
-		
+		$( document ).ready(function() {
+			$('.heading-inner').hover(
+				function(){ $("#home-heading").addClass('hover-bold') },
+				function(){ $("#home-heading").removeClass('hover-bold') }
+			)
+		});
 	</script>
 {% endblock %}
