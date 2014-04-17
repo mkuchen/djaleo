@@ -60,7 +60,6 @@ div#content-main {
 }
 
 ul.main-circle {
-	background: #0d0d0d;
 	height: 240px;
 	width: 240px;
 	border-radius: 120px;
@@ -82,9 +81,7 @@ ul.main-circle {
 	-ms-perspective: 800;
 	-o-perspective: 800;
 	perspective: 800;
-	-webkit-box-shadow: 0 0 30px rgba(50, 50, 50, 0.75);
-	-moz-box-shadow: 0 0 30px rgba(50, 50, 50, 0.75);
-	box-shadow: 0 0 30px rgba(50, 50, 50, 0.75);
+	
 }
 
 div.quadrant {
@@ -94,9 +91,7 @@ div.quadrant {
 }
 
 div.quadrant:hover ul.main-circle {
-	-webkit-box-shadow: 0 0 30px rgba(50, 50, 50, 0.75);
-	-moz-box-shadow: 0 0 30px rgba(50, 50, 50, 0.75);
-	box-shadow: 0 0 30px rgba(50, 50, 50, 0.75);
+	border: 4px solid #0d0d0d;
 }
 
 div.quadrant div.heading-outer {
@@ -120,7 +115,7 @@ div.quadrant div.heading-outer div.heading-inner a h3 {
 	z-index: 1;
 	font-family: RalewayLight;
 	font-size: 32px;
-	color: #fff;
+	color: #0d0d0d;
 	float: left;
 	margin-left: auto;
 	margin-right: auto;
@@ -188,11 +183,10 @@ div#q-four ul#bottom-right {
 ul.main-circle li.option {
 	width: 120px;
 	height: 120px;
-	border: 5px solid black;
 	border-radius: 60px;
 	-webkit-border-radius: 60px; 
 	-moz-border-radius: 60px; 
-	background: #ffffff;
+	background: #0d0d0d;
 	margin: 0;
 	position: relative;
 	opacity: 0;
@@ -213,6 +207,10 @@ ul.main-circle li.option {
 	perspective: 800;
 }
 
+ul.main-circle li.option:hover a h5 {
+	text-decoration: underline;
+}
+
 ul.main-circle li a {
 	color: #0d0d0d;
 	font-family: RalewayRegular;
@@ -229,6 +227,7 @@ ul.main-circle li a h5 {
 	width: 100%;
 	top: 44%;
 	position: relative;
+	color: #ffffff;
 }
 
 div#q-one ul.main-circle li:nth-child(1) {
@@ -254,6 +253,7 @@ div#q-one:hover ul.main-circle li:hover {
 	-webkit-box-shadow: 0 0 30px rgba(50, 50, 50, 0.75);
 	-moz-box-shadow: 0 0 30px rgba(50, 50, 50, 0.75);
 	box-shadow: 0 0 30px rgba(50, 50, 50, 0.75);
+	border: 5px solid black;
 }
 
 div#q-one:hover ul.main-circle li:nth-child(1) {
