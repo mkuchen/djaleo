@@ -1,0 +1,50 @@
+{% extends "info/base.html" %}
+
+{% load staticfiles %}
+
+{% block stylesheets %}
+	<link rel="stylesheet" href="{% static 'css/info/home2.css' %}" />
+{% endblock %}
+
+{% block content %}
+	<div class="central" id="q-one">
+		<div class="circle-outer">
+			<div class="circle-inner">
+				<h3> Philosophy </h3>
+				<h3> Store </h3>
+				<h3> Paleo Info </h3>
+				<h3> About Us </h3>
+				<ul class="main-circle circle-outer" id="top-left">
+					<li class="option quad-1 circle-inner"><a href="#"><h5>Our Way</h5></a></li>
+					<li class="option quad-2 circle-inner"><a href="#"><h5>New</h5></a></li>
+					<li class="option quad-2 circle-inner"><a href="#"><h5>Bulk</h5></a></li>
+					<li class="option quad-2 circle-inner"><a href="#"><h5>Sale</h5></a></li>
+
+					<!--<li class="option"><a href="#"><h5>What we do</h5></a></li>
+					<li class="option"><a href="#"><h5>Why we do it</h5></a></li>
+					<li class="option"><a href="#"><h5>How we do it</h5></a></li>
+					<li class="option"><a href="#"><h5>What we do</h5></a></li>
+					<li class="option"><a href="#"><h5>Why we do it</h5></a></li>
+					<li class="option"><a href="#"><h5>How we do it</h5></a></li>-->
+				</ul>
+			</div>
+		</div>
+	</div>
+{% endblock %}
+
+{% block scripts %}
+	<script type="text/javascript">
+		$( document ).ready(function() {
+			$("#top-left").addClass('top-left-in');
+			$("li.option:nth-child(1)").addClass("fade-one");
+			$("li.option:nth-child(2)").addClass("fade-two");
+			$("li.option:nth-child(3)").addClass("fade-three");
+			$("li.option:nth-child(4)").addClass("fade-four");
+
+			$('#q-one').hover(
+				function(){ $("#heading-one").addClass('hover-underline') },
+				function(){ $("#heading-one").removeClass('hover-underline') }
+			)
+		});
+	</script>
+{% endblock %}

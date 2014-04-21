@@ -2,12 +2,15 @@
 
 {% load staticfiles %}
 
+{% block stylesheets %}
+	<link rel="stylesheet" href="{% static 'css/info/base.css' %}">
+{% endblock %}
 
 {% block content %}
 	<div class="quadrant" id="q-one">
 		<div class="heading-outer">
 			<div class="heading-inner">
-				<a href="#"><h3 id="home-heading"> Home </h3></a>
+				<a href="#"><h3 id="heading-one"> Home </h3></a>
 			</div>
 		</div>
 		<ul class="main-circle" id="top-left">
@@ -18,20 +21,41 @@
 	</div>
 
 	<div class="quadrant" id="q-two">
+		<div class="heading-outer">
+			<div class="heading-inner">
+				<a href="#"><h3 id="heading-two"> Products </h3></a>
+			</div>
+		</div>
 		<ul class="main-circle" id="top-right">
-
+			<li class="option"><a href="#"><h5>New</h5></a></li>
+			<li class="option"><a href="#"><h5>Bulk</h5></a></li>
+			<li class="option"><a href="#"><h5>On sale</h5></a></li>
 		</ul>
 	</div>
 
 	<div class="quadrant" id="q-three">
+		<div class="heading-outer">
+			<div class="heading-inner">
+				<a href="#"><h3 id="heading-three"> Paleo Info </h3></a>
+			</div>
+		</div>
 		<ul class="main-circle" id="bottom-left">
-
+			<li class="option"><a href="#"><h5>What is Paleo?</h5></a></li>
+			<li class="option"><a href="#"><h5>Research</h5></a></li>
+			<li class="option"><a href="#"><h5>Discussion</h5></a></li>
 		</ul>
 	</div>
 
 	<div class="quadrant" id="q-four">
+		<div class="heading-outer">
+			<div class="heading-inner">
+				<a href="#"><h3 id="heading-four"> About Us </h3></a>
+			</div>
+		</div>
 		<ul class="main-circle" id="bottom-right">
-
+			<li class="option"><a href="#"><h5>The team</h5></a></li>
+			<li class="option"><a href="#"><h5>Philosophy</h5></a></li>
+			<li class="option"><a href="#"><h5>Legal info</h5></a></li>
 		</ul>
 	</div>
 {% endblock %}
@@ -40,8 +64,8 @@
 	<script type="text/javascript">
 		$( document ).ready(function() {
 			$('.heading-inner').hover(
-				function(){ $("#home-heading").addClass('hover-bold') },
-				function(){ $("#home-heading").removeClass('hover-bold') }
+				function(){ $("#heading-one").addClass('hover-bold') },
+				function(){ $("#heading-one").removeClass('hover-bold') }
 			)
 		});
 	</script>

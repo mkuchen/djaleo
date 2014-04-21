@@ -9,3 +9,11 @@ class HomeView(View):
 	def get(self, request, *args, **kwargs):
 		context = {}
 		return render(request, self.template_name, context)
+
+
+class TwoView(View):
+	template_name = 'info/home2.html'
+
+	def get(self, request, *args, **kwargs):
+		context = {}
+		return render(request, self.template_name, context)
