@@ -245,6 +245,19 @@ div#q-one:hover ul.main-circle li:hover {
 	box-shadow: 0 0 30px rgba(50, 50, 50, 0.75);
 }
 
+
+div#q-one:hover ul.main-circle li:nth-child(1):hover {
+	border: 15px solid #2BBBD8;
+}
+
+div#q-one:hover ul.main-circle li:nth-child(2):hover {
+	border: 15px solid #F78D3F;
+}
+
+div#q-one:hover ul.main-circle li:nth-child(3):hover {
+	border: 15px solid #102E37;
+}
+
 div#q-one ul.main-circle li.fade-one {
 	left: 76px;
 	top: 76px;

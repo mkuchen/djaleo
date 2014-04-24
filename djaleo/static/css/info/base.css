@@ -198,6 +198,19 @@ div#q-four ul#bottom-right {
 	top: 0;
 }
 
+
+ul.main-circle li:nth-child(1):hover {
+	border: 8px solid #2BBBD8!important;
+}
+
+ul.main-circle li:nth-child(2):hover {
+	border: 8px solid #F78D3F;
+}
+
+ul.main-circle li:nth-child(3):hover {
+	border: 8px solid #102E37;
+}
+
 ul.main-circle li.option {
 	border: 8px solid #ffffff;
 	width: 120px;
