@@ -44,7 +44,7 @@ div#content-main {
 div#header-nav {
 	position:absolute;
     width: 100%;
-    height: 100px;
+    height: 110px;
 }
 
 div.navbar-static-top {
@@ -57,16 +57,29 @@ div.cath-main-nav {
 	margin-left: auto;
 	margin-right: auto;
 	padding-top: 14px;
+	height: 100%;
 }
 
 strong.logo {
 	font-size: 32px;
 	font-family: RalewayLight;
 	text-decoration: none;
+	width: 100%;
+	height: 100%;
+	display: block;
 }
 
 strong.logo a {
 	line-height: 72px;
+	width: 100%;
+	height: 100%;
+	display: block;
+	padding: 4px 14px;
+}
+
+strong.logo a:hover {
+	text-decoration: none;
+	font-weight: bold;
 }
 
 ul.resource a {
@@ -108,7 +121,7 @@ ul.main li:last-child a {
 div.box {
 	float: left;
 	position: absolute;
-	padding: 2px 4px;
+	border: 2px solid #428bca;
 }
 
 .box span {
