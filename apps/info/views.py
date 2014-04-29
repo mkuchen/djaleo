@@ -17,3 +17,10 @@ class TwoView(View):
 	def get(self, request, *args, **kwargs):
 		context = {}
 		return render(request, self.template_name, context)
+
+class CathView(View):
+	template_name = 'info/cathie_home.html'
+
+	def get(self, request, *args, **kwargs):
+		context = {}
+		return render(request, self.template_name, context)

@@ -1,0 +1,56 @@
+{% extends "info/base.html" %}
+{% load staticfiles %}
+
+{% block stylesheets %}
+	<link rel="stylesheet" href="{% static 'css/info/cathie_home.css' %}" />
+{% endblock %}
+
+
+{% block content %}
+<div class="top-nav container-fluid">
+	<div role="navigation" class="navbar navbar-default navbar-static-top">
+		<i class="icon-flags"></i>
+		<div class="container">
+			<div class="navbar-top-collapse navbar-collapse collapse">
+				<ul class="nav navbar-nav resource">
+					<li><a href="/resources/">One</a></li>
+					<li><a href="/support/">Two</a></li>
+					<li><a href="/api/">Three</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right top">
+					<li class="nolink">Preview the software:</li>
+					<li class="active"><a href="/signup/">Free Trial</a></li>
+					<li class="nolink hidden-xs" style="padding-left: 0px;">|</li>
+					<li class="active"><a href="/login/">Log in</a></li>
+				</ul>
+			</div><!--/.nav-collapse -->
+		</div>
+	</div>
+
+	<div role="navigation" class="navbar-main navbar-default navbar-static-top" id="header-nav">
+		<div class="container cath-main-nav">
+			<strong class="logo"><a href="/">Cathie Kuchenberg</a></strong>
+			<div class="navbar-main-collapse navbar-collapse collapse">
+				<ul class="nav navbar-nav navbar-right main">
+					<li><a href="/">Home</a></li>
+					<li><a href="/features/">Features</a></li>
+					<li><a href="/integrations/">Integrations</a></li>
+					<li><a href="/customers/">Customers</a></li>
+					<li><a href="/pricing/">Pricing</a></li>
+					<li class="visible-xs"><a href="/resources/">Resources</a></li>
+					<li class="visible-xs"><a href="/support/">Knowledge Base</a></li>
+					<li class="visible-xs"><a href="/api/">API</a></li>
+					<li class="visible-xs"><a href="/signup/">Free Trial</a></li>
+					<li class="visible-xs"><a href="/login/">Log in</a></li>
+					<li><a href="/signup/" rel="button" class="btn btn-primary sign-up">Sign up</a></li>
+				</ul>
+			</div><!--/.nav-collapse -->
+		</div>
+	</div>
+</div>
+
+{% endblock %}
+
+{% block scripts %}
+	<script type="text/javascript" src="{% static 'js/info/cathie_home.js' %}" charset="utf-8"></script>
+{% endblock %}
