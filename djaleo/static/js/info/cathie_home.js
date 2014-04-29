@@ -3,20 +3,27 @@ $(function(){
 });
 
 $(window).scroll(function(){
-    var $nav = $('#header-nav');
+    var $navOne = $('#header-nav');
+    var $navTwo = $('.cath-main-nav');
     if ($('body').scrollTop() > 50) {
-        if ($nav.data('size') == 'big') {
-            $nav.css("position","fixed");
-            $nav.data('size','small').stop().animate({
-                height:'40px',
+        if ($navOne.data('size') == 'big') {
+            $navOne.css("position","fixed");
+            $navOne.data('size','small').stop().animate({
+                height:'60px',
                 top:'0'
+            }, 600);
+            $navTwo.data('size','small').stop().animate({
+                "padding-top":"4px",
             }, 600);
         }
     } else {
-        if ($nav.data('size') == 'small') {
-            $nav.css("position","relative");
-            $nav.data('size','big').stop().animate({
-                height:'100px',
+        if ($navOne.data('size') == 'small') {
+            $navOne.css("position","relative");
+            $navOne.data('size','big').stop().animate({
+                height:'112px',
+            }, 600);
+            $navTwo.data('size','big').stop().animate({
+                "padding-top":"28px",
             }, 600);
         }  
     }
