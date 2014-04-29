@@ -37,6 +37,8 @@
 
 div#content-main {
 	height: 3000px!important;
+	font-family: "sans serif";
+	font-weight: 200;
 }
 
 div#header-nav {
@@ -54,6 +56,7 @@ div.cath-main-nav {
 	float: center;
 	margin-left: auto;
 	margin-right: auto;
+	padding-top: 14px;
 }
 
 strong.logo {
@@ -78,9 +81,90 @@ div.navbar-main-collapse {
 	float: right;
 }
 
+ul.top {
+	margin-top: 8px;
+}
+
 ul.top li:first-child {
 	font-family: "sans serif";
-	margin-top: 19px;
+	margin-top: 10px;
 	font-size: 12px;
 	margin-right: 12px;
 }
+
+ul.top li {
+	font-size: 12px;
+	float: left;
+}
+
+ul.main li a {
+	font-size: 14px;
+}
+
+ul.main li:last-child a {
+	color: #fff;
+}
+
+div.box {
+	float: left;
+	position: absolute;
+	padding: 2px 4px;
+}
+
+.box span {
+  position: absolute;
+  background: none;
+  -moz-transition: 0.4s ease;
+  -o-transition: 0.4s ease;
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+.box span.top {
+  width:40px;
+  height:2px;
+  top: -2px;
+  left:-140%;
+}
+
+.box:hover span.top {
+  left:0;
+  background:#428bca;
+}
+
+.box span.right {
+  height:40px;
+  width:2px;
+  right: -2px;
+  top:-140%;
+}
+
+.box:hover span.right {
+  top:0;
+  background:#428bca;
+}
+
+.box span.bottom {
+  width:40px;
+  height: 2px;
+  bottom: -2px;
+  right:-140%;
+}
+
+.box:hover span.bottom {
+  right:0;
+  background:#428bca;
+}
+
+.box span.left {
+  height:40px;
+  width: 2px;
+  left: -2px;
+  bottom:-140%;
+}
+
+.box:hover span.left {
+  bottom:0;
+  background:#428bca;
+}
+
