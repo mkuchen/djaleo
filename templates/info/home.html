@@ -67,11 +67,30 @@
 				function(){ $("#heading-one").addClass('hover-bold') },
 				function(){ $("#heading-one").removeClass('hover-bold') }
 			)
-			/*$('#q-one').hover(
-				function(){ $("div#q-one ul.main-circle li:nth-child(1)").animate({ left: 234, top: 108 }, 500, $.bez([0.865, -0.15, 0.085, 1.21])); },
-				function(){ $("div#q-one ul.main-circle li:nth-child(1)").animate({ left: 40, top: 40 }, 500, $.bez([0.865, -0.15, 0.085, 1.21])); }
-			)*/
-			
+			/* bez.js test */
+			var bezierEasing = [0.865, -0.15, 0.085, 1.21];
+			var firstElem = $("div#q-one ul.main-circle li:nth-child(1)");
+			var secondElem = $("div#q-one ul.main-circle li:nth-child(2)");
+			var thirdElem = $("div#q-one ul.main-circle li:nth-child(3)");
+			$('#q-one').hover(
+				function(){
+					firstElem.css("opacity", 1).css("left", "250px").css("top", "20px");
+					secondElem.css("opacity", 1).css("left", "200px").css("top", "80px");
+					thirdElem.css("opacity", 1).css("left", "40px").css("top", "10px");
+					firstElem.animate({ opacity: "1", left: 250, top: 20 }, 0, $.bez(bezierEasing));
+					secondElem.animate({ opacity: "1", left: 200, top: 80}, 0, $.bez(bezierEasing));
+					thirdElem.animate({ opacity: "1", left: 40, top: 10 }, 0, $.bez(bezierEasing));
+				},
+				function(){
+					firstElem.css("opacity", 0).css("left", "40px").css("top", "40px");
+					secondElem.css("opacity", 0).css("left", "40px").css("top", "-81px");
+					thirdElem.css("opacity", 0).css("left", "40px").css("top", "-196px");
+					firstElem.animate({ opacity: "0", left: 40, top: 40 }, 0, $.bez(bezierEasing));
+					secondElem.animate({ opacity: "0", left: 40, top: -81}, 0, $.bez(bezierEasing));
+					thirdElem.animate({ opacity: "0", left: 40, top: -196 }, 0, $.bez(bezierEasing));
+				}
+			)
+			return false;
 		});
 	</script>
 {% endblock %}
