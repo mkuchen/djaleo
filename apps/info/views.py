@@ -18,7 +18,7 @@ class TwoView(View):
 		context = {}
 		return render(request, self.template_name, context)
 
-class CathView(View):
+class CathHomeView(View):
 	template_name = 'info/cathie_home.html'
 
 	def get(self, request, *args, **kwargs):

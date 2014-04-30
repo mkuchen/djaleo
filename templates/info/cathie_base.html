@@ -1,0 +1,81 @@
+{% extends "info/base.html" %}
+{% load staticfiles %}
+
+{% block stylesheets %}
+	<link rel="stylesheet" href="{% static 'css/info/cathie_base.css' %}" />
+	{% block cath_stylesheets %}{% endblock %}
+{% endblock %}
+
+
+{% block content %}
+<div class="top-nav">
+	<div role="navigation" class="navbar-default navbar-static-top" id="locked-nav">
+		<div class="container">
+			<div class="navbar-top-collapse navbar-collapse collapse">
+				<ul class="nav navbar-left resource top-left-nav">
+					<li><a href="/resources/">Login</a></li>
+				</ul>
+				<ul class="nav navbar-right top-right-nav">
+					<li class="nolink">Follow me:</li>
+					<li class="active">
+						<a href="http://www.linkedin.com/pub/mitch-kuchenberg/62/ab1/985">
+							<i class="fa fa-instagram fa-2x"></i>
+						</a>
+					</li>
+					<li class="active">
+						<a href="https://github.com/mkuchen/">
+							<i class="fa fa-facebook fa-2x"> </i>
+						</a>
+					</li>
+					<li class="active">
+						<a href="https://twitter.com/MGKuchenberg">
+							<i class="fa fa-twitter fa-2x"></i>
+						</a>
+					</li>
+					<li class="active">
+						<a href="https://twitter.com/MGKuchenberg">
+							<i class="fa fa-youtube fa-2x"></i>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div role="navigation" class="navbar-default navbar-static-top" id="sliding-nav">
+		<div class="container cath-main-nav">
+			<div class="box">
+				<span class="top"></span>
+				<span class="right"></span>
+				<span class="bottom"></span>
+				<span class="left"></span>
+				<strong class="logo"><a href="/">Cathie Kuchenberg</a></strong>
+				<a href="/">
+					<div class="nav-image-container">
+						<img src="{% static 'img/cath2.png' %}" width="60" height="60" rel="Cathie Kuchenberg">
+					</div>
+				</a>
+			</div>
+
+			<div class="navbar-main-collapse navbar-collapse collapse">
+				<ul class="nav navbar-nav navbar-right main">
+					<li><a href="/">Home</a></li>
+					<li><a href="/features/">About</a></li>
+					<li><a href="/integrations/">Classes</a></li>
+					<li><a href="/pricing/">Locations</a></li>
+					<li><a href="/customers/">Media</a></li>
+					<li><a href="/signup/" rel="button" class="btn-primary sign-up">Sign up</a></li>
+				</ul>
+			</div><!--/.nav-collapse -->
+		</div>
+	</div>
+</div>
+
+{% block cath_content %}{% endblock %}
+
+{% endblock %}
+
+{% block scripts %}
+	<script type="text/javascript" src="{% static 'js/info/cathie_base.js' %}" charset="utf-8"></script>
+	{% block cath_scripts %}{% endblock %}
+{% endblock %}
