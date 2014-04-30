@@ -8,26 +8,40 @@
 
 {% block content %}
 <div class="top-nav">
-	<div role="navigation" class="navbar navbar-default navbar-static-top">
-		<i class="icon-flags"></i>
+	<div role="navigation" class="navbar-default navbar-static-top" id="locked-nav">
 		<div class="container">
 			<div class="navbar-top-collapse navbar-collapse collapse">
-				<ul class="nav navbar-nav resource">
-					<li><a href="/resources/">One</a></li>
-					<li><a href="/support/">Two</a></li>
-					<li><a href="/api/">Three</a></li>
+				<ul class="nav navbar-left resource top-left-nav">
+					<li><a href="/resources/">Login</a></li>
 				</ul>
-				<ul class="nav navbar-right top">
-					<li class="nolink">Preview the software:</li>
-					<li class="active"><a href="/signup/">Free Trial</a></li>
-					<li class="nolink hidden-xs" style="padding-left:0px;padding-top:8px;">|</li>
-					<li class="active"><a href="/login/">Log in</a></li>
+				<ul class="nav navbar-right top-right-nav">
+					<li class="nolink">Follow me:</li>
+					<li class="active">
+						<a href="http://www.linkedin.com/pub/mitch-kuchenberg/62/ab1/985">
+							<i class="fa fa-instagram fa-2x"></i>
+						</a>
+					</li>
+					<li class="active">
+						<a href="https://github.com/mkuchen/">
+							<i class="fa fa-facebook fa-2x"> </i>
+						</a>
+					</li>
+					<li class="active">
+						<a href="https://twitter.com/MGKuchenberg">
+							<i class="fa fa-twitter fa-2x"></i>
+						</a>
+					</li>
+					<li class="active">
+						<a href="https://twitter.com/MGKuchenberg">
+							<i class="fa fa-youtube fa-2x"></i>
+						</a>
+					</li>
 				</ul>
-			</div><!--/.nav-collapse -->
+			</div>
 		</div>
 	</div>
 
-	<div role="navigation" class="navbar-main navbar-default navbar-static-top" id="header-nav">
+	<div role="navigation" class="navbar-default navbar-static-top" id="sliding-nav">
 		<div class="container cath-main-nav">
 			<div class="box">
 				<span class="top"></span>
@@ -35,19 +49,20 @@
 				<span class="bottom"></span>
 				<span class="left"></span>
 				<strong class="logo"><a href="/">Cathie Kuchenberg</a></strong>
+				<a href="/">
+					<div class="nav-image-container">
+						<img src="{% static 'img/cath2.png' %}" width="60" height="60" rel="Cathie Kuchenberg">
+					</div>
+				</a>
 			</div>
+
 			<div class="navbar-main-collapse navbar-collapse collapse">
 				<ul class="nav navbar-nav navbar-right main">
 					<li><a href="/">Home</a></li>
-					<li><a href="/features/">Features</a></li>
-					<li><a href="/integrations/">Integrations</a></li>
-					<li><a href="/customers/">Customers</a></li>
-					<li><a href="/pricing/">Pricing</a></li>
-					<li class="visible-xs"><a href="/resources/">Resources</a></li>
-					<li class="visible-xs"><a href="/support/">Knowledge Base</a></li>
-					<li class="visible-xs"><a href="/api/">API</a></li>
-					<li class="visible-xs"><a href="/signup/">Free Trial</a></li>
-					<li class="visible-xs"><a href="/login/">Log in</a></li>
+					<li><a href="/features/">About</a></li>
+					<li><a href="/integrations/">Classes</a></li>
+					<li><a href="/pricing/">Locations</a></li>
+					<li><a href="/customers/">Media</a></li>
 					<li><a href="/signup/" rel="button" class="btn-primary sign-up">Sign up</a></li>
 				</ul>
 			</div><!--/.nav-collapse -->
