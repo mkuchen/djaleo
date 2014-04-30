@@ -178,6 +178,12 @@ div#sliding-nav div.cath-main-nav div.box:hover span.left {
 
 div#sliding-nav div.cath-main-nav div.box a div.nav-image-container {
 	float: left;
+	height: 60px;
+}
+
+div#sliding-nav.sliding div.cath-main-nav div.box a div.nav-image-container {
+	float: left;
+	height: 48px;
 }
 
 div#sliding-nav div.cath-main-nav div.box a div.nav-image-container img {
