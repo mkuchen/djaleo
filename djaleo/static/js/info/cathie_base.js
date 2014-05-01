@@ -7,9 +7,7 @@ $(window).scroll(function(){
     var $navTwo = $('.cath-main-nav');
     if ($('body').scrollTop() > 50) {
         if ($navOne.data('size') == 'big') {
-            $navOne.css("position","fixed");
-            $navOne.addClass("sliding");
-            $navOne.data('size','small').stop().animate({
+            $navOne.css("position","fixed").addClass("sliding", 10000).data('size','small').stop().animate({
                 height:'60px',
                 top:'0'
             }, 600);
@@ -19,9 +17,7 @@ $(window).scroll(function(){
         }
     } else {
         if ($navOne.data('size') == 'small') {
-            $navOne.css("position","relative");
-            $navOne.removeClass("sliding");
-            $navOne.data('size','big').stop().animate({
+            $navOne.css("position","relative").removeClass("sliding", 10000).data('size','big').stop().animate({
                 height:'112px',
             }, 600);
             $navTwo.data('size','big').stop().animate({
