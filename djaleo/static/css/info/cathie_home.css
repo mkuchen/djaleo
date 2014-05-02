@@ -8,7 +8,8 @@ div.main-content div.slideshow-container {
 	height: 440px;
 	background: #F7977A;
 	padding: 0!important;
-	margin: 20px auto;	
+	margin: 20px auto;
+	background: url('/static/img/blurry-background.jpg');	
 }
 
 div.main-content div.slideshow-container div.slideshow-inner {
@@ -57,7 +58,7 @@ div.blurry-bg {
 	width: 100%;
 	display: block;
 	background: #fff;
-	/*background: url('/static/img/blurry-background.jpg');*/
+	background: url('/static/img/blurry-background.jpg');
 	background-size: 140%;
 	padding-top: 14px;
 }
@@ -118,6 +119,8 @@ div.testimonials div.col-md-3 {
 	height: 360px;
 	margin: 8px 46px;
 	border-radius: 15px;
+	background: rgb(0,0,0);
+	background: rgba(0,0,0,0.7);
 }
 
 div.testimonials div.col-md-3:nth-child(1) {
@@ -133,6 +136,31 @@ div.testimonials div.col-md-3:nth-child(3) {
 div.testimonials div.col-md-3:nth-child(5) {
 	border: 10px solid #FFF79A;
 	/*background: rgba(255,247,153,0.5);*/
+}
+
+div.testimonials div.col-md-3 div.testimonial-top {
+	height: 42%;
+	width: 90%;
+	margin: 0 auto;
+	float: center;
+	border-bottom: 1px solid #fff;
+}
+
+div.testimonials div.col-md-3 div.testimonial-quote {
+	height: 50%;
+	width: 90%;
+	padding: 10px 8px;
+	margin: 0 auto;
+	float: center;
+	background: url('/static/img/quoteMarks.png');
+	background-size: 100%;
+	background-position-y: 13px;
+	background-repeat: no-repeat;
+}
+
+div.testimonials div.col-md-3 div.testimonial-quote p {
+	color: white;
+	font-family: "ABZ", "sans serif";
 }
 
 /* cath-footer section */
@@ -153,7 +181,7 @@ div.col-divider {
 	width: 1px;
 	height: 232px;
 	margin: 69px 0;
-	background: #0d0d0d;
+	background: #fff;
 	float: left;
 }
 /* end */
