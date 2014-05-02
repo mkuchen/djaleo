@@ -7,77 +7,107 @@
 
 
 {% block cath_content %}
-<div class="main-content">
-	<div class="slideshow-container container">
-		<div class="slideshow-inner">
-			<div class="carousel slide" data-ride="carousel">
-				<!-- Indicators -->
-				<ol class="carousel-indicators">
-					<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-					<li data-target="#carousel-example-generic" data-slide-to="1"></li>
-					<li data-target="#carousel-example-generic" data-slide-to="2"></li>
-				</ol>
+	<div class="main-content">
+		<div class="slideshow-container container">
+			<div class="slideshow-inner">
+				<div class="carousel slide" data-ride="carousel">
+					<!-- Indicators -->
+					<ol class="carousel-indicators">
+						<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+						<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+						<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+					</ol>
 
-				<!-- Wrapper for slides -->
-				<div class="carousel-inner">
-					<div class="item active">
-						<img src="{% static 'img/cath1.jpg' %}" alt="..." width="293" height="440">
-						<div class="carousel-caption">
-							<h3>First slide label</h3>
-							<p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+					<!-- Wrapper for slides -->
+					<div class="carousel-inner">
+						<div class="item active">
+							<img src="{% static 'img/cath1.jpg' %}" alt="..." width="293" height="440">
+							<div class="carousel-caption">
+								<h3>First slide label</h3>
+								<p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+							</div>
+						</div>
+
+						<div class="item">
+							<img src="{% static 'img/cath3.jpg' %}" alt="..." width="587" height="440">
+							<div class="carousel-caption">
+								<h3>Second slide label</h3>
+								<p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+							</div>
+						</div>
+
+						<div class="item">
+							<img src="{% static 'img/cath1.jpg' %}" alt="..." width="293" height="440">
+							<div class="carousel-caption">
+								<h3>Third slide label</h3>
+								<p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+							</div>
 						</div>
 					</div>
 
-					<div class="item">
-						<img src="{% static 'img/cath3.jpg' %}" alt="..." width="587" height="440">
-						<div class="carousel-caption">
-							<h3>Second slide label</h3>
-							<p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-						</div>
-					</div>
-
-					<div class="item">
-						<img src="{% static 'img/cath1.jpg' %}" alt="..." width="293" height="440">
-						<div class="carousel-caption">
-							<h3>Third slide label</h3>
-							<p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-						</div>
-					</div>
+					<!-- Controls -->
+					<a class="left carousel-control slide-trans" href="#carousel-example-generic" data-slide="prev" onclick="$('.carousel').carousel('prev')">
+						<span class="glyphicon glyphicon-chevron-left"></span>
+					</a>
+					<a class="right carousel-control slide-trans" href="#carousel-example-generic" data-slide="next" onclick="$('.carousel').carousel('next')">
+						<span class="glyphicon glyphicon-chevron-right"></span>
+					</a>
 				</div>
-
-				<!-- Controls -->
-				<a class="left carousel-control" href="#carousel-example-generic" data-slide="prev" onclick="$('.carousel').carousel('prev')">
-					<span class="glyphicon glyphicon-chevron-left"></span>
-				</a>
-				<a class="right carousel-control" href="#carousel-example-generic" data-slide="next" onclick="$('.carousel').carousel('next')">
-					<span class="glyphicon glyphicon-chevron-right"></span>
-				</a>
 			</div>
 		</div>
-	</div>
+		<div class="content-divider">
+			<div class="container">
+				
+			</div>
+		</div>
+		<div class="blurry-bg">
+			<div class="about">
+				<div class="container about-inner">
+					<div class="about-wrapper">
+						<div class="about-left">
+							<p>
+								"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+							</p>
+							
+						</div>
+						<div class="about-right">
+							<ul id="specialties">
+								<li> Uno </li>
+								<li> Dos </li>
+								<li> Tres </li>
+								<li> Quatro </li>
+								<li> Cinco </li>
+								<li> Seis </li>
+								<li> Siete </li>
+								<li> Ocho </li>
+							</ul>
+						</div>
+					</div>
+					<div class="testimonials">
+						<div class="col-md-3">
+							<div class="testimonial-top"></div>
+							<div class="testimonial-quote"></div>
+						</div>
+						<div class="col-divider"></div>
+						<div class="col-md-3">
+							<div class="testimonial-top"></div>
+							<div class="testimonial-quote"></div>
+						</div>
+						<div class="col-divider"></div>
+						<div class="col-md-3">
+							<div class="testimonial-top"></div>
+							<div class="testimonial-quote"></div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			<div class="cath-footer">
 
-	<div class="about container">
-		<p>
-			"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
-		</p>
-		<ul id="specialties">
-			<li> Uno </li>
-			<li> Dos </li>
-			<li> Tres </li>
-			<li> Quatro </li>
-			<li> Cinco </li>
-			<li> Seis </li>
-			<li> Siete </li>
-			<li> Ocho </li>
-		</ul>
+			</div>
+			
+		</div>
 	</div>
-
-	<div class="testimonials container">
-		<div class="col-md-3"></div>
-		<div class="col-md-3"></div>
-		<div class="col-md-3"></div>
-	</div>
-</div>
 {% endblock %}
 
 {% block cath_scripts %}

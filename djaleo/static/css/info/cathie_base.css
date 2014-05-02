@@ -41,6 +41,12 @@ div#content-main {
 	font-weight: 200;
 }
 
+div.top-nav {
+	-webkit-box-shadow: 0 0 30px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow: 0 0 30px rgba(50, 50, 50, 0.75);
+	box-shadow: 0 0 30px rgba(50, 50, 50, 0.75);
+}
+
 /* locked navbar */
 div#locked-nav {
 	height: 50px;
