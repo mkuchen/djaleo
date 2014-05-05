@@ -31,7 +31,7 @@ div.main-content div.slideshow-container div.slideshow-inner div.carousel div.ca
 
 div.main-content div.slideshow-container div.slideshow-inner div.carousel div.carousel-inner div.item div.carousel-caption {
 	background: rgba(0,0,0,.7);
-	font-family: ABZ, "sans serif";
+	font-family: 'Helvetica',Arial,sans-serif;
 }
 
 div.main-content div.slideshow-container div.slideshow-inner div.carousel div.carousel-inner div.item div.carousel-caption h3 {
@@ -58,7 +58,10 @@ div.blurry-bg {
 	width: 100%;
 	display: block;
 	background: #fff;
+	/*
 	background: url('/static/img/blurry-background.jpg');
+	*/
+	background: #222;
 	background-size: 140%;
 	padding-top: 14px;
 }
@@ -91,18 +94,105 @@ div.main-content div.blurry-bg div.about div.container ul#specialties {
 	margin-left: 30px;
 }
 
-div.about-left, div.about-right {
+div.about-top {
+	width: 100%;
+	height: 140px;
+	background: #428bca;
+	padding: 20px 46px;
+}
+
+div.about-top div.about-top-left {
+	width: 56%;
 	height: 100%;
-	width: 50%;
+	float: left;
+}
+
+div.about-top div.about-top-left h1 {
+	font-size: 60px;
+	font-weight: bold;
+	font-family: 'Helvetica',Arial,sans-serif;
+	color: #fff;
+}
+
+div.about-top div.about-top-left h2 {
+	font-size: 36px;
+	font-weight: bold;
+	font-family: 'Helvetica',Arial,sans-serif;
+	color: #fff;
+}
+
+div.about-top div.about-top-right h1 {
+	font-size: 70px;
+	font-weight: bold;
+	font-family: RalewayLight, 'Helvetica',Arial, sans-serif;
+	color: #fff;
+	display: block;
+	float: left;
+	margin-left: 71px;
+	line-height: 88px;
+}
+
+div.about-top div.about-top-right a {
+	background: #68b468;
+	border-radius: 8px;
+	color: #fff;
+	font-size: 28px;
+	font-weight: 700;
+	padding: 15px 26px;
+	transition: all .2s;
+	box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+	border-color: #51a251;
+	border-width: 1px 1px 2px;
+	border-style: solid;
+	margin-top: 20px;
+	margin-left: 26px;
+	display: block;
+	float: left;
+}
+
+div.about-top div.about-top-right a:hover {
+	background:#57ac57;
+	border-color:#4a954a;
+	text-decoration: none;
+}
+
+div.about-top div.about-top-right {
+	width: 44%;
+	height: 100%;
+	float: left;
+}
+
+
+div.about-left {
+	height: 80%;
+	width: 66%;
+	float: left;
+	padding: 20px 46px;
+}
+
+div.about-right {
+	height: 80%;
+	width: 33%;
 	float: left;
 	padding: 20px 36px;
 }
 
+div.about-left h3, div.about-left p, div.about-left ul {
+	font-family: 'Helvetica',Arial,sans-serif;
+}
+
+div.about-left h3 {
+	font-size: 24px;
+	line-height: 28px;
+	font-style: italic;
+}
+
 div.about-wrapper {
 	width: 100%;
-	height: 400px;
+	height: 620px;
 	display: inline-block;
-	background: #ddd;
+	background: #fff;
+	border: 1px solid black;
 }
 /* end */
 
@@ -118,6 +208,7 @@ div.testimonials {
 div.testimonials div.col-md-3 {
 	height: 360px;
 	margin: 8px 46px;
+	padding: 20px;
 	border-radius: 15px;
 	background: rgb(0,0,0);
 	background: rgba(0,0,0,0.7);
@@ -139,17 +230,21 @@ div.testimonials div.col-md-3:nth-child(5) {
 }
 
 div.testimonials div.col-md-3 div.testimonial-top {
-	height: 42%;
+	height: 47%;
 	width: 90%;
 	margin: 0 auto;
 	float: center;
 	border-bottom: 1px solid #fff;
 }
 
+div.testimonials div.col-md-3 div.testimonial-top img {
+	width: 100%;
+}
+
 div.testimonials div.col-md-3 div.testimonial-quote {
-	height: 50%;
+	height: 56%;
 	width: 90%;
-	padding: 10px 8px;
+	padding: 20px 16px;
 	margin: 0 auto;
 	float: center;
 	background: url('/static/img/quoteMarks.png');
@@ -159,8 +254,26 @@ div.testimonials div.col-md-3 div.testimonial-quote {
 }
 
 div.testimonials div.col-md-3 div.testimonial-quote p {
+	font-family: "sans serif";
+}
+
+div.testimonials div.col-md-3 div.testimonial-quote p:first-child {
 	color: white;
-	font-family: "ABZ", "sans serif";
+	font-size: 15px;
+	line-height: 18px;
+}
+
+div.testimonials div.col-md-3 div.testimonial-quote p:nth-child(2) {
+	font-size: 13px;
+	font-style: italic;
+	margin-left: 14px;
+	color: #428bca;
+	line-height: 16px;
+}
+
+div.testimonials div.col-md-3 div.testimonial-quote p:nth-child(3) {
+	color: #eee;
+	font-size: 12px;
 }
 
 /* cath-footer section */

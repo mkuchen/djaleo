@@ -41,10 +41,14 @@ div#content-main {
 	font-weight: 200;
 }
 
+.top-nav-shadow {
+	-webkit-box-shadow: 0 4px 20px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow: 0 4px 20px rgba(50, 50, 50, 0.75);
+	box-shadow: 0 4px 20px rgba(50, 50, 50, 0.75);
+}
+
 div.top-nav {
-	-webkit-box-shadow: 0 0 30px rgba(50, 50, 50, 0.75);
-	-moz-box-shadow: 0 0 30px rgba(50, 50, 50, 0.75);
-	box-shadow: 0 0 30px rgba(50, 50, 50, 0.75);
+	height: 162px;
 }
 
 /* locked navbar */
@@ -259,13 +263,13 @@ div#sliding-nav div.cath-main-nav div.navbar-main-collapse ul.main li:last-child
 
 div#sliding-nav div.cath-main-nav div.navbar-main-collapse ul.main li a {
 	font-size: 14px;
-	font-family: RalewayLight;
+	font-family: 'Helvetica',Arial,sans-serif;
 	color: #fff;
 	text-shadow: none!important;
 }
 
 div#sliding-nav div.cath-main-nav div.navbar-main-collapse ul.main li a:hover {
-	font-weight: bold;
+	text-decoration: underline;	
 	text-shadow: none!important;
 }
 
