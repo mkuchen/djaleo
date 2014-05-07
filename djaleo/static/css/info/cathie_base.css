@@ -48,7 +48,7 @@ div#content-main {
 }
 
 div.top-nav {
-	height: 162px;
+	height: 112px;
 }
 
 /* locked navbar */
@@ -117,7 +117,6 @@ div#sliding-nav div.cath-main-nav {
 div#sliding-nav div.cath-main-nav div.box {
 	float: left;
 	position: absolute;
-	border: 1px solid #fff;
 }
 
 div#sliding-nav div.cath-main-nav div.box span {
