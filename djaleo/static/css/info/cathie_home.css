@@ -11,56 +11,73 @@ div.main-content div.slideshow-container {
 	margin: 0;
 	/*background: url('/static/img/blurry-background.jpg');*/
 	background: url('/static/img/old-peeps-2.jpg');
-	background-size: 100%;
+	background-repeat: no-repeat;
 	background-position-y: -240px;
 	width: 100%;	
 }
 
-div.slideshow-container div.slideshow-header-inner {
+div.slideshow-container div.container div.slideshow-header-inner {
 	position: relative;
+	padding: 43px 37px 63px;
 	top: 146px;
-	left: 893px;
-	width: 700px;
+	left: 330px;
+	width: 840px;
 	float: left;
+	overflow: hidden;
+	color: #fff;
+	background: url('/static/img/callout-bg.png');
+	border-radius: 6px;
+	text-align: right;
 }
 
-div.slideshow-container div.slideshow-header-inner h1 {
-	color: white;
-	font-family: RalewayLight, "sans-serif";
-	font-size: 84px;
+div.slideshow-container div.container div.slideshow-header-inner h1 {
+	font-family: RalewayBold,'Helvetica',Arial,"sans-serif";
+	font-size: 48px;
 	font-weight: 600;
-	line-height: 96px;
+	line-height: 52px;
 }
 
-div.slideshow-container div.slideshow-header-inner h2 {
-	font-size: 36px;
-	font-weight: bold;
-	font-family: 'Helvetica',Arial,sans-serif;
-	color: #fff;
-}
-
-div.slideshow-container div.slideshow-header-inner a {
-	background: #68b468;
-	border-radius: 8px;
-	color: #fff;
-	font-size: 28px;
-	font-weight: 700;
-	padding: 15px 26px;
-	transition: all .2s;
-	box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
-	border-color: #51a251;
-	border-width: 1px 1px 2px;
-	border-style: solid;
-	margin-top: 37px;
-	margin-left: 201px;
+div.slideshow-container div.container div.slideshow-header-inner p {
+	font-weight: 400;
+	font-family: RalewayLight,'Helvetica',Arial,"sans-serif";
+	padding-top: 4px;
+	margin-bottom: 2px;
+	font-size: 26px;
 	display: block;
+	width: 718px;
 	float: left;
 }
 
-div.slideshow-container div.slideshow-header-inner h1 span {
+div.slideshow-container div.container div.slideshow-header-inner span {
+	float: right;
+	display: block;
+	font-size: 36px;
+	line-height: 55px;
+	color: #fff;
+}
+
+div.slideshow-container div.container div.slideshow-header-inner a {
+	color: #fff;
+	font-family: 'Helvetica',Arial,"sans-serif";
+	transition: all .2s;
+	font-size: 16px;
+	background-color: #fc4502;
+	border: 1px solid #cd3902;
+	margin-top: 15px;
+	display: block;
+	float: right;
+	width: 255px;
+}
+
+div.slideshow-container div.container div.slideshow-header-inner a:hover {
+	background-color:#cd3902;
+	border:1px solid #b13102;
+}
+
+div.slideshow-container div.container div.slideshow-header-inner h1 span {
 	text-decoration: underline;
 }
-
+/*
 div.main-content div.slideshow-container div.slideshow-inner {
 	height: 100%;
 	float: center;
@@ -82,7 +99,7 @@ div.main-content div.slideshow-container div.slideshow-inner div.carousel div.ca
 
 div.main-content div.slideshow-container div.slideshow-inner div.carousel div.carousel-inner div.item div.carousel-caption h3 {
 	font-size: 20px;
-}
+}*/
 /* end */
 
 /* content divider section */
