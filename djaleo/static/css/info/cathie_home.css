@@ -79,16 +79,18 @@ div.slideshow-container div.container div.slideshow-header-inner a {
 	margin-right: 12px;
 	display: block;
 	float: right;
-	width: 255px;
+	width: 285px;
+}
+
+div.slideshow-container div.container div.slideshow-header-inner a span {
+	font-size: 17px;
+	line-height: 16px;
+	margin-left: 5px;
 }
 
 div.slideshow-container div.container div.slideshow-header-inner a:hover {
 	background-color:#cd3902;
 	border:1px solid #b13102;
-}
-
-div.slideshow-container div.container div.slideshow-header-inner h1 span {
-	font-size: 38px;
 }
 
 div.slideshow-container div.container div.logos-block {
@@ -210,6 +212,7 @@ div.blurry-bg {
 	background: #222;
 	background-size: 140%;
 	padding-top: 14px;
+	padding-bottom: 14px;
 	border-top: 1px solid white;
 }
 
@@ -332,6 +335,49 @@ div.about-col p strong {
 }
 /* end */
 
+/* about-2 section */
+div.about-2 {
+	height: 800px;
+	width: 100%;
+	background: #fff;
+	color: #222;
+}
+
+div.about-2 div.about-2-inner {
+	min-width: 1170px;
+	padding: 40px;
+}
+
+div.about-2 div.about-2-inner div.divider {
+	height: 293px;
+	margin: 101px 0;
+	width: 1px;
+	background-color: #222;
+}
+
+div.about-2 div.about-2-inner > div {
+	float: left;
+}
+
+div.about-2 div.about-2-inner div.about-top {
+	height: 80px;
+	width: 100%;
+}
+
+div.about-2 div.about-2-inner div.about-top h1 {
+	font-family: RalewayRegular,'Helvetica',Arial,"sans-serif";
+	color: #222;
+	font-size: 40px;
+	line-height: 80px;
+	text-align: center;
+}
+
+div.about-2 div.about-2-inner div.about-2-col {
+	width: 24%;
+	height: 400px;
+}
+/* end */
+
 
 /* cath-footer section */
 div.cath-footer {
@@ -342,8 +388,17 @@ div.cath-footer {
 	bottom: 0;
 	border-top: 1px solid #fff;
 	margin-top: 16px;
+	padding
 }
 
+div.cath-footer-inner {
+	height: 100%;
+	min-width: 1170px;
+	padding: 16px;
+	color: white;
+	font-size: 12px;
+	text-align: center;
+}
 /* end */
 
 /* misc */
