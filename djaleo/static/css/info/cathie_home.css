@@ -97,8 +97,8 @@ div.slideshow-container div.container div.logos-block {
 	position: relative;
 	bottom: -99px;
 	float: right;
-	background: rgb(255,218,185);
-	background: rgba(255,218,185,0.85);
+	background: rgb(255,255,255);
+	/*background: rgba(255,255,255,0.85);*/
 	border-top-left-radius: 12px;
 	border-top-right-radius: 12px;
 	padding: 15px 30px;
@@ -206,10 +206,10 @@ div.content-divider div.container div.divider {
 div.blurry-bg {
 	width: 100%;
 	display: block;
-	background: #fff;
 	background: #222;
 	background-size: 140%;
 	padding-top: 14px;
+	border-top: 1px solid white;
 }
 
 
@@ -250,7 +250,7 @@ div.about-col {
 }
 
 div.about-col div.about-icon {
-	width: 67px;
+	width: 62px;
 	float: center;
 	margin-left: auto;
 	margin-right: auto;
@@ -286,86 +286,29 @@ div.about-col h5 {
 	margin-left: auto;
 	margin-right: auto;
 }
-/* end */
 
-/* testimonials */
-/*
-div.testimonials {
+div.about-col ul {
 	margin-top: 20px;
-	padding-top: 12px;
-	position: relative;
-	display: inline-block;
-	width: 100%;
-}
-
-div.testimonials div.col-md-3 {
-	height: 360px;
-	margin: 8px 46px;
-	padding: 20px;
-	border-radius: 15px;
-	background: rgb(0,0,0);
-	background: rgba(0,0,0,0.7);
-}
-
-div.testimonials div.col-md-3:nth-child(1) {
-	border: 10px solid #BC8DBF;
-}
-
-div.testimonials div.col-md-3:nth-child(3) {
-	border: 10px solid #6ECFF6;
-}
-
-div.testimonials div.col-md-3:nth-child(5) {
-	border: 10px solid #FFF79A;
-}
-
-div.testimonials div.col-md-3 div.testimonial-top {
-	height: 47%;
 	width: 90%;
-	margin: 0 auto;
+	display: block;
 	float: center;
-	border-bottom: 1px solid #fff;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-div.testimonials div.col-md-3 div.testimonial-top img {
-	width: 100%;
-}
-
-div.testimonials div.col-md-3 div.testimonial-quote {
-	height: 56%;
-	width: 90%;
-	padding: 20px 16px;
-	margin: 0 auto;
-	float: center;
-	background: url('/static/img/quoteMarks.png');
-	background-size: 100%;
-	background-position-y: 13px;
-	background-repeat: no-repeat;
-}
-
-div.testimonials div.col-md-3 div.testimonial-quote p {
-	font-family: "sans serif";
-}
-
-div.testimonials div.col-md-3 div.testimonial-quote p:first-child {
+div.about-col ul li {
 	color: white;
-	font-size: 15px;
-	line-height: 18px;
-}
-
-div.testimonials div.col-md-3 div.testimonial-quote p:nth-child(2) {
 	font-size: 13px;
-	font-style: italic;
-	margin-left: 14px;
-	color: #428bca;
+	font-family: "sans-serif";
 	line-height: 16px;
 }
 
-div.testimonials div.col-md-3 div.testimonial-quote p:nth-child(3) {
-	color: #eee;
-	font-size: 12px;
+div.about-col ul li span {
+	color: #7BCDC8;
 }
-*/
+/* end */
+
+
 /* cath-footer section */
 div.cath-footer {
 	width: 100%;
