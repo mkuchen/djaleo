@@ -7,6 +7,12 @@
 
 @font-face
 {
+	font-family: RalewayRegular;
+	src: url('/static/fonts/Raleway/Raleway-Regular.otf')
+}
+
+@font-face
+{
 	font-family: RalewayBold;
 	src: url('/static/fonts/Raleway/Raleway-Bold.otf')
 }
@@ -141,7 +147,7 @@ div#sliding-nav.sliding div.cath-main-nav div.box span.top {
 
 div#sliding-nav div.cath-main-nav div.box:hover span.top {
 	left:0;
-	background:#428bca;
+	background:#ff85a2;
 }
 
 div#sliding-nav div.cath-main-nav div.box span.right {
@@ -157,7 +163,7 @@ div#sliding-nav.sliding div.cath-main-nav div.box span.right {
 
 div#sliding-nav div.cath-main-nav div.box:hover span.right {
 	top:0;
-	background:#428bca;
+	background:#ff85a2;
 }
 
 div#sliding-nav div.cath-main-nav div.box span.bottom {
@@ -173,7 +179,7 @@ div#sliding-nav.sliding div.cath-main-nav div.box span.bottom {
 
 div#sliding-nav div.cath-main-nav div.box:hover span.bottom {
 	right:0;
-	background:#428bca;
+	background:#ff85a2;
 }
 
 div#sliding-nav div.cath-main-nav div.box span.left {
@@ -190,7 +196,7 @@ div#sliding-nav.sliding div.cath-main-nav div.box span.left {
 
 div#sliding-nav div.cath-main-nav div.box:hover span.left {
 	bottom:0;
-	background:#428bca;
+	background:#ff85a2;
 }
 
 div#sliding-nav div.cath-main-nav div.box a div.nav-image-container {
@@ -231,7 +237,7 @@ div#sliding-nav div.cath-main-nav div.box strong.logo a {
 }
 
 div#sliding-nav div.cath-main-nav div.box strong.logo a:hover {
-	color: #428bca;
+	color: #ff85a2;
 	font-weight: normal!important;
 }
 
