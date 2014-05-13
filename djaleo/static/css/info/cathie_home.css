@@ -65,11 +65,11 @@ div.slideshow-container div.container div.slideshow-header-inner > span {
 	display: block;
 	font-size: 39px;
 	line-height: 96px;
-	color: #fff;
+	color: white;
 }
 
 div.slideshow-container div.container div.slideshow-header-inner a {
-	color: #fff;
+	color: white;
 	font-family: 'Helvetica',Arial,"sans-serif";
 	transition: all .2s;
 	font-size: 16px;
@@ -312,7 +312,7 @@ div.about-col ul {
 div.about-col ul li {
 	color: white;
 	font-size: 15px;
-	font-family: 'Helvetica',Arial,"sans-serif";
+	font-family: "Helvetica",Arial,"sans-serif";
 	line-height: 20px;
 	margin-left: 25px;
 }
@@ -325,13 +325,15 @@ div.about-col ul li span {
 div.about-col p {
 	margin-top: 20px;
 	color: white;
-	font-family: 'Helvetica',Arial,"sans-serif";
+	font-family: "Helvetica",Arial,"sans-serif";
 	font-size: 15px;
 	line-height: 20px;
+	text-align: justify;
 }
 
 div.about-col p strong {
 	font-weight: 700;
+	color: #ff85a2;
 }
 /* end */
 
@@ -390,6 +392,10 @@ div.about-2-col p {
 	color: #222;
 	font-family: 'Helvetica',Arial,"sans-serif";
 	margin-top: 18px;
+}
+
+div.about-2-col img {
+	margin-top: 20px;
 }
 /* end */
 
