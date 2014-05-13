@@ -79,7 +79,6 @@ div.slideshow-container div.container div.slideshow-header-inner a {
 	margin-right: 12px;
 	display: block;
 	float: right;
-	width: 285px;
 }
 
 div.slideshow-container div.container div.slideshow-header-inner a span {
@@ -339,7 +338,6 @@ div.about-col p strong {
 
 /* about-2 section */
 div.about-2 {
-	height: 800px;
 	width: 100%;
 	background: #fff;
 	color: #222;
@@ -351,8 +349,8 @@ div.about-2 div.about-2-inner {
 }
 
 div.about-2 div.about-2-inner div.divider {
-	height: 293px;
-	margin: 101px 0;
+	height: 230px;
+	margin: 70px 0;
 	width: 1px;
 	background-color: #222;
 }
@@ -374,7 +372,6 @@ div.about-2 div.about-2-inner div.about-top h1 {
 }
 
 div.about-2 div.about-2-inner div.about-2-col {
-	height: 400px;
 	width: 49.9%;
 	padding: 10px 50px;
 }
@@ -397,8 +394,55 @@ div.about-2-col p {
 div.about-2-col img {
 	margin-top: 20px;
 }
+
+div.about-2 div.about-2-inner div.about-bottom {
+	width: 100%;
+}
+
+div.about-2 div.about-2-inner div.about-bottom a {
+	display: block;
+	float: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Helvetica',Arial,"sans-serif";
+	font-size: 20px;
+	line-height: 34px;
+	width: 320px;
+	margin-top: 20px;
+}
 /* end */
 
+/* testimonial section */
+div.testimonial {
+	width: 100%;
+}
+
+div.testimonial div.testimonial-inner {
+	min-width: 1170px;
+	padding: 40px;
+	color: #222;
+}
+
+div.testimonial div.testimonial-inner div.testimonial-top {
+	width: 100%;
+}
+
+div.testimonial div.testimonial-inner div.testimonial-top h1 {
+	font-family: RalewayRegular,'Helvetica',Arial,"sans-serif";
+	font-size: 40px;
+	line-height: 60px;
+}
+
+div.testimonial div.testimonial-inner div.testimonial-top h3 {
+	font-family: RalewayRegular,'Helvetica',Arial,"sans-serif";
+	font-size: 22px;
+	line-height: 30px;
+}
+
+div.testimonial div.testimonial-inner div.testimonial-middle {
+	width: 100%;
+}
+/* end */
 
 /* cath-footer section */
 div.cath-footer {
