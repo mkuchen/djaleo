@@ -1,7 +1,7 @@
 from django.conf.urls import patterns, include, url
 from django.conf import settings
 from django.contrib import admin
-from apps.info.views import HomeView, TwoView, CathHomeView
+from apps.info.views import HomeView, TwoView, CathHomeView, CathAboutView, CathClassesView, CathOneView, CathLocationsView
 
 admin.autodiscover()
 
