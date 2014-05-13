@@ -18,9 +18,46 @@ class TwoView(View):
 		context = {}
 		return render(request, self.template_name, context)
 
+
+
+""" CATH VIEWS BEGIN """
+
 class CathHomeView(View):
-	template_name = 'info/cathie_home.html'
+	template_name = 'info/cath/cathie_home.html'
 
 	def get(self, request, *args, **kwargs):
 		context = {}
 		return render(request, self.template_name, context)
+
+
+class CathAboutView(View):
+	template_name = 'info/cath/cathie_about.html'
+
+	def get(self, request, *args, **kwargs):
+		context = {}
+		return render(request, self.template_name, context)
+
+
+class CathClassesView(View):
+	template_name = 'info/cath/cathie_classes.html'
+
+	def get(self, request, *args, **kwargs):
+		context = {}
+		return render(request, self.template_name, context)
+
+
+class CathOneView(View):
+	template_name = 'info/cath/cathie_one_on_one.html'
+
+	def get(self, request, *args, **kwargs):
+		context = {}
+		return render(request, self.template_name, context)
+
+
+class CathLocationsView(View):
+	template_name = 'info/cath/cathie_locations.html'
+
+	def get(self, request, *args, **kwargs):
+		context = {}
+		return render(request, self.template_name, context)
+

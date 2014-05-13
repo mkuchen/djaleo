@@ -47,12 +47,6 @@ div#content-main {
 	font-weight: 200;
 }
 
-.top-nav-shadow {
-	-webkit-box-shadow: 0 4px 20px rgba(50, 50, 50, 0.75);
-	-moz-box-shadow: 0 4px 20px rgba(50, 50, 50, 0.75);
-	box-shadow: 0 4px 20px rgba(50, 50, 50, 0.75);
-}
-
 div.top-nav {
 	height: 112px;
 }

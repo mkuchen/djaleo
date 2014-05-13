@@ -11,7 +11,12 @@ urlpatterns = patterns('',
     # url(r'^blog/', include('blog.urls')),
     url(r'^$', HomeView.as_view(), name='home'),
     url(r'^two/$', TwoView.as_view(), name='two'),
+    # CATH URLS BEGIN
     url(r'^cath/$', CathHomeView.as_view(), name="cath-home"),
+    url(r'^cath/about/$', CathAboutView.as_view(), name="cath-about"),
+    url(r'^cath/class/$', CathClassesView.as_view(), name="cath-class"),
+    url(r'^cath/1-on-1/$', CathOneView.as_view(), name="cath-one"),
+    url(r'^cath/locations/$', CathLocationsView.as_view(), name="cath-locations"),
     #url(r'^admin/', include(admin.site.urls)),
 )
 
