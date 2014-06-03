@@ -1,8 +1,8 @@
-{% extends "info/rick/rickie_base.html" %}
+{% extends "info/rick_base.html" %}
 {% load staticfiles %}
 
 {% block rick_stylesheets %}
-	<link rel="stylesheet" href="{% static 'css/info/rickie_home.css' %}" />
+	<link rel="stylesheet" href="{% static 'css/info/rick_home.css' %}" />
 {% endblock %}
 
 
@@ -12,96 +12,81 @@
 			<div class="container">
 				<div class="slideshow-header-inner col-md-8">
 					<div class="slideshow-text-inner">
-						<h1> &ldquo;Let's get fit together.&rdquo; </h1>
-						<p> Changing your body one step at a time with carefully crafted programs that <span>accomplish your goals</span>.</p>
+						<h1> &ldquo;Our work speaks for itself&rdquo; </h1>
 					</div>
-					<a href="#" rel="button" class="btn btn-lg">Schedule your free consultation <span class="glyphicon glyphicon-flag"></span></a>
+					<a href="#" rel="button" class="btn btn-lg">Schedule your consultation today<span class="glyphicon glyphicon-flag"></span></a>
 				</div>
+				<!--
 				<div class="logos-block">
 					<a href="http://www.afaa.com/">
-						<img src="{% static 'img/logo-afaa.gif' %}" width="" height="">
+						<img src="{% static '' %}" width="" height="">
 					</a>
 
 					<a href="http://www.zumba.com/en-US">
-						<img src="{% static 'img/zumba-logo.png' %}" width="" height="">
+						<img src="{% static '' %}" width="" height="">
 					</a>
 
 					<a href="https://www.trxtraining.com/">
-						<img src="{% static 'img/trx-logo.png' %}" width="" height="">
+						<img src="{% static '' %}" width="" height="">
 					</a>
-				</div>
+					<h3> This is where you'll put your certifications and credentials </h3>
+				</div>-->
 			</div>
 		</div>
 
 		<div class="blurry-bg">
 			<div class="about">
 				<div class="container about-inner">
-					<div class="row">
+					<div class="row" id="home-about-row">
 
 						<div class="col-md-4">
 							<div class="about-col">
 								<div class="about-icon">
-									<span class="glyphicon glyphicon-user"></span>
-									<span class="glyphicon glyphicon-user"></span>
-									<span class="glyphicon glyphicon-user"></span>
+									<span class="glyphicon glyphicon-asterisk"></span>
 								</div>
-								<h3>  Classes  </h3>
-								<h5>  Group fitness for every skill and experience level, now featuring TRX and Zumba.  </h5>
+								<h3>  Kitchens  </h3>
+								<h5>  A little blurb about how good your kitchens are goes here.  </h5>
 								<div class="divider"></div>
-								<p>
-									Fitness isn't just something you do in the gym.  It's something you live.  As your trainer I can coach you in the areas where it makes the biggest and most important difference:
-								</p>
-								<ul>
-									<li>Nutrition and meal planning</li>
-									<li>Lifestyle advice and general fitness </li>
-									<li>Motivation and life coaching</li>
-								</ul>
-							</div>
-						</div>
-
-						<div class="col-md-4">
-							<div class="about-col">
-								
-								<div class="about-icon">
-									<a href="/rick/about/">
-										<img src="{% static 'img/rick2.png' %}" width="120" height="120">
+								<div class="gall-link">
+									<a href="#" class="slide-trans">
+										<p class="slide-trans"> View Gallery<span class="glyphicon glyphicon-arrow-right"></span> </p>
 									</a>
 								</div>
-								<h3><a href="/rick/about">  rickie Kuchenberg  </a></h3>
-								<h5>  Your personal trainer, nutrition specialist, and life coach.  </h5>
-
-								<div class="divider"></div>
-								<p>
-									Fitness isn't just something you do in the gym.  It's something you live.  As your trainer I can coach you in the areas where it makes the biggest and most important difference:
-								</p>
-								<ul>
-									<li>Nutrition and meal planning</li>
-									<li>Lifestyle advice and general fitness </li>
-									<li>Motivation and life coaching</li>
-								</ul>
-								<a href="/rick/about/"> Learn more </a>
 							</div>
 						</div>
 
 						<div class="col-md-4">
 							<div class="about-col">
 								<div class="about-icon">
-									<span class="glyphicon glyphicon-user"></span>
+									<span class="glyphicon glyphicon-leaf"></span>
 								</div>
-								<h3>  One-on-One Training  </h3>
-								<h5>  Personal instruction from a compassionate and energetic fitness coach.  </h5>
+								<h3> Decks </h3>
+								<h5> Another little blurb about your awesome deck work. </h5>
 								<div class="divider"></div>
-								<p>
-									Fitness isn't just something you do in the gym.  It's something you live.  As your trainer I can coach you in the areas where it makes the biggest and most important difference:
-								</p>
-								<ul>
-									<li>Nutrition and meal planning</li>
-									<li>Lifestyle advice and general fitness </li>
-									<li>Motivation and life coaching</li>
-								</ul>
+								<div class="gall-link">
+									<a href="#" class="slide-trans">
+										<p class="slide-trans"> View Gallery<span class="glyphicon glyphicon-arrow-right"></span> </p>
+									</a>
+								</div>
 							</div>
 						</div>
-						
+
+						<div class="col-md-4">
+							<div class="about-col">
+								<div class="about-icon">
+									<span class="glyphicon glyphicon-home"></span>
+								</div>
+								<h3> Additions </h3>
+								<h5> Blurb about additions and how awesome yours are. </h5>
+								<div class="divider"></div>
+								<div class="gall-link">
+									<a href="#" class="slide-trans">
+										<p class="slide-trans"> View Gallery<span class="glyphicon glyphicon-arrow-right"></span> </p>
+									</a>
+								</div>
+							</div>
+						</div>
+
 					</div>
 				</div>
 			</div>
@@ -111,56 +96,41 @@
 			<div class="container about-2-inner">
 
 				<div class="about-top">
-					<h1> Let's train together. </h1>
+					<h1> Customer Testimonials </h1>
 				</div>
 				
 				<div class="about-2-col col-md-6">
-					<h3> Classes </h3>
+					<h3> John Doe </h3>
 					<p>
-						Give a general description of how classes are run, basic features, etc.  How many people tend to show up to a single one?  What days and times are they usually held?  How are instructions given?  How do you help people who struggle with certain movements?  Feel free to expand here.
+						"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
 					</p>
-					<p>
-						List and discuss a few (2-3) different class types.  For each class recommend a skill and intensity level.  Link to your "classes" page for further information.
-					</p>
-					<img src="{% static 'img/group.jpg' %}" width="444" height="">
+					
+					<img src="{% static 'img/kitchen-2.jpg' %}" width="444" height="">
 
 				</div>
 
 				<div class="divider"></div>
 
 				<div class="about-2-col col-md-6">
-					<h3> One-on-One </h3>
-					<img src="{% static 'img/one.jpg' %}" width="444" height="">
+					<h3> Jane Smith </h3>
+					<img src="{% static 'img/kitchen-3.jpg' %}" width="444" height="">
 					<p>
-						This is the part where you talk about how you create programs for new clients.  Maybe list some aspects you take into account when building a routine (experience, goals, time commitment, etc).
-					</p>
-					<p>
-						Also talk about how you're personable, easy to work with, understanding and compassionate, ya know.
+						"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
 					</p>
 				</div>
 
 				<div class="about-bottom">
-					<a href="#" class="btn btn-success"> Explore Classes </a>
+					<a href="#" class="btn btn-success"> See More Testimonials </a>
 				</div>
 				
 			</div>
 		</div>
 
-		<div class="testimonial">
-			<div class="testimonial-inner container">
-				<div class="testimonial-top">
-					<h1> Personal success story: </h1>
-					<h3> Jane Doe, lost 83 pounds </h3>
-				</div>
-				<div class="testimonial-middle">
-					
-				</div>
-			</div>
-		</div>
+		
 
 		<div class="rick-footer">
 			<div class="rick-footer-inner container">
-				<p> All rights reserved.  This site and all associated content are property of <a href="#">Joy Fitness</a> and rickie Kuchenberg </p>
+				<p> All rights reserved.  This site and all associated content are property of Richard Ward Builders, Inc.</p>
 			</div>
 		</div>
 			
@@ -169,5 +139,5 @@
 {% endblock %}
 
 {% block rick_scripts %}
-	<script type="text/javascript" src="{% static 'js/info/rickie_home.js' %}" charset="utf-8"></script>
+	<script type="text/javascript" src="{% static 'js/info/rick_home.js' %}" charset="utf-8"></script>
 {% endblock %}

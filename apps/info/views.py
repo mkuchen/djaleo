@@ -21,7 +21,7 @@ class TwoView(View):
 """ RICK VIEWS BEGIN """
 
 class RickHomeView(View):
-	template_name = 'info/cath/rick_home.html'
+	template_name = 'info/rick_home.html'
 
 	def get(self, request, *args, **kwargs):
 		context = {}

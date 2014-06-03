@@ -2,7 +2,7 @@
 {% load staticfiles %}
 
 {% block stylesheets %}
-	<link rel="stylesheet" href="{% static 'css/info/rickie_base.css' %}" />
+	<link rel="stylesheet" href="{% static 'css/info/rick_base.css' %}" />
 
 	{% block rick_stylesheets %}{% endblock %}
 {% endblock %}
@@ -17,10 +17,11 @@
 					<span class="right slide-trans"></span>
 					<span class="bottom slide-trans"></span>
 					<span class="left slide-trans"></span>
-					<strong class="logo"><a class="slide-trans" href="/">rickie Kuchenberg</a></strong>
+					<strong class="logo"><a class="slide-trans" href="/">Richard Ward Builders</a></strong>
 					<a href="/">
 						<div class="nav-image-container slide-trans">
-							<img src="{% static 'img/rick2.png' %}" width="60" height="60" rel="rickie Kuchenberg" class="slide-trans">
+							<p class="slide-trans">RWB</p>
+							<!--<img src="{% static 'img/rwb_logo.png' %}" width="60" height="60" rel="Richard Ward" class="slide-trans">-->
 						</div>
 					</a>
 				</div>
@@ -29,11 +30,9 @@
 					<ul class="nav navbar-nav navbar-right main slide-trans">
 						<li><a href="/">Home</a></li>
 						<li><a href="/about/">About</a></li>
-						<li><a href="/classes/">Classes</a></li>
-						<li><a href="/one-on-one/">One-on-One</a></li>
-						<li><a href="/locations/">Locations</a></li>
-						<li><a href="/media/">Media</a></li>
-						<li><a href="/signup/" rel="button" class="btn-primary sign-up">Sign up</a></li>
+						<li><a href="/classes/">Gallery</a></li>
+						<li><a href="/one-on-one/">Testimonials</a></li>
+						<li><a href="/signup/" rel="button" class="btn-primary sign-up">Contact</a></li>
 					</ul>
 				</div><!--/.nav-collapse -->
 			</div>
@@ -48,6 +47,6 @@
 {% endblock %}
 
 {% block scripts %}
-	<script type="text/javascript" src="{% static 'js/info/rickie_base.js' %}" charset="utf-8"></script>
+	<script type="text/javascript" src="{% static 'js/info/rick_base.js' %}" charset="utf-8"></script>
 	{% block rick_scripts %}{% endblock %}
 {% endblock %}

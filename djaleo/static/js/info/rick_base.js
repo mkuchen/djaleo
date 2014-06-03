@@ -1,12 +1,12 @@
 $(function(){
     $('#sliding-nav').data('size','big');
-    $('.cath-main-nav').data('size','big');
+    $('.rick-main-nav').data('size','big');
     $('.top-nav').data('size','big');
 });
 
 $(window).scroll(function(){
     var $navOne = $('#sliding-nav');
-    var $navTwo = $('.cath-main-nav');
+    var $navTwo = $('.rick-main-nav');
     var $navThree = $('.top-nav');
     if ($('body').scrollTop() > 0) {
         if ($navOne.data('size') == 'big') {

@@ -1,5 +1,5 @@
 /*************************************************
-	rickie_base.html
+	rick_base.html
 *************************************************/
 
 /* fonts */
@@ -133,19 +133,19 @@ div#sliding-nav div.rick-main-nav div.box span {
 }
 
 div#sliding-nav div.rick-main-nav div.box span.top {
-	width:302px;
+	width:359px;
 	height:1px;
 	top: -1px;
 	left:-140%;
 }
 
 div#sliding-nav.sliding div.rick-main-nav div.box span.top {
-	width: 290px;
+	width: 359px;
 }
 
 div#sliding-nav div.rick-main-nav div.box:hover span.top {
 	left:0;
-	background:#ff85a2;
+	background:#428bca;
 }
 
 div#sliding-nav div.rick-main-nav div.box span.right {
@@ -161,23 +161,23 @@ div#sliding-nav.sliding div.rick-main-nav div.box span.right {
 
 div#sliding-nav div.rick-main-nav div.box:hover span.right {
 	top:0;
-	background:#ff85a2;
+	background:#428bca;
 }
 
 div#sliding-nav div.rick-main-nav div.box span.bottom {
-	width:302px;
+	width:359px;
 	height: 1px;
 	bottom: -1px;
 	right:-140%;
 }
 
 div#sliding-nav.sliding div.rick-main-nav div.box span.bottom {
-	width: 290px;
+	width: 359px;
 }
 
 div#sliding-nav div.rick-main-nav div.box:hover span.bottom {
 	right:0;
-	background:#ff85a2;
+	background:#428bca;
 }
 
 div#sliding-nav div.rick-main-nav div.box span.left {
@@ -194,7 +194,7 @@ div#sliding-nav.sliding div.rick-main-nav div.box span.left {
 
 div#sliding-nav div.rick-main-nav div.box:hover span.left {
 	bottom:0;
-	background:#ff85a2;
+	background:#428bca;
 }
 
 div#sliding-nav div.rick-main-nav div.box a div.nav-image-container {
@@ -211,9 +211,19 @@ div#sliding-nav div.rick-main-nav div.box a div.nav-image-container img {
 	border-radius: 30px;
 }
 
-div#sliding-nav.sliding div.rick-main-nav div.box a div.nav-image-container img {
+div#sliding-nav div.rick-main-nav div.box a div.nav-image-container p {
+	display: block;
+	height: 60px;
+	line-height: 57px;
+	font-family: RalewayRegular;
+	font-size: 35px;
+	margin-right: 10px;
+}
+
+div#sliding-nav.sliding div.rick-main-nav div.box a div.nav-image-container p {
+	display:block;
 	height: 48px;
-	width: 48px;
+	line-height:45px;
 }
 
 div#sliding-nav div.rick-main-nav div.box strong.logo {
@@ -227,6 +237,7 @@ div#sliding-nav div.rick-main-nav div.box strong.logo {
 
 div#sliding-nav div.rick-main-nav div.box strong.logo a {
 	line-height: 52px;
+	font-family: Arial, Helvetica, sans-serif;
 	color: #fff;
 	width: 100%;
 	height: 100%;
@@ -235,7 +246,7 @@ div#sliding-nav div.rick-main-nav div.box strong.logo a {
 }
 
 div#sliding-nav div.rick-main-nav div.box strong.logo a:hover {
-	color: #ff85a2;
+	color: #428bca;
 	font-weight: normal!important;
 }
 
