@@ -1,0 +1,153 @@
+/* slideshow */
+div.main-content#classes-content {
+	width: 100%;
+}
+
+div.main-content#classes-content div.slideshow-container {
+	height: 640px;
+	background: #b19cd9;
+	/*background: #F7977A;*/
+	padding: 0!important;
+	margin: 0;
+	/*background: url('/static/img/blurry-background.jpg');*/
+	background: url('/static/img/old-peeps-2.jpg');
+	background-repeat: no-repeat;
+	background-position-y: -240px;
+	width: 100%;	
+}
+
+div.slideshow-container div.container {
+	height: 100%;
+}
+
+div.slideshow-container div.container div.slideshow-header-inner {
+	position: relative;
+	padding: 43px 37px 63px;
+	margin-top: 146px;
+	width: 620px;
+	float: right;
+	overflow: hidden;
+	color: #fff;
+	background: url('/static/img/callout-bg.png');
+	background: rgba(0,0,0,0.8);
+	border-radius: 6px;
+	text-align: right;
+}
+
+div.slideshow-container div.container div.slideshow-header-inner div.slideshow-text-inner {
+	width: 570px;
+	float: right;
+}
+
+div.slideshow-container div.container div.slideshow-header-inner div.slideshow-text-inner h1 {
+	font-family: RalewayBold,'Helvetica',Arial,"sans-serif";
+	font-size: 48px;
+	font-weight: 600;
+	line-height: 52px;
+}
+
+div.slideshow-container div.container div.slideshow-header-inner div.slideshow-text-inner p {
+	font-weight: 400;
+	font-family: RalewayRegular,'Helvetica',Arial,"sans-serif";
+	padding-top: 4px;
+	margin-bottom: 2px;
+	font-size: 22px;
+	display: block;
+	float: left;
+}
+
+div.slideshow-container div.container div.slideshow-header-inner div.slideshow-text-inner p span {
+	text-decoration: underline;
+}
+
+div.slideshow-container div.container div.slideshow-header-inner > span {
+	float: right;
+	display: block;
+	font-size: 39px;
+	line-height: 96px;
+	color: white;
+}
+
+div.slideshow-container div.container div.slideshow-header-inner a {
+	color: white;
+	font-family: 'Helvetica',Arial,"sans-serif";
+	transition: all .2s;
+	font-size: 16px;
+	background-color: #fc4502;
+	border: 1px solid #cd3902;
+	margin-top: 30px;
+	margin-right: 12px;
+	display: block;
+	float: right;
+}
+
+div.slideshow-container div.container div.slideshow-header-inner a span {
+	font-size: 17px;
+	line-height: 16px;
+	margin-left: 5px;
+}
+
+div.slideshow-container div.container div.slideshow-header-inner a:hover {
+	background-color:#cd3902;
+	border:1px solid #b13102;
+}
+
+div.slideshow-container div.container div.logos-block {
+	width: 480px;
+	height: 114px;
+	position: relative;
+	top: 526px;
+	left: 620px;
+	float: right;
+	background: rgb(255,255,255);
+	/* background: rgba(255,255,255,0.85); */
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+	padding: 15px 30px;
+}
+
+div.slideshow-container div.container div.logos-block a img {
+	height: 50%;
+	margin-top: 22px;
+	float: right;
+}
+
+div.logos-block a:nth-child(1) img {
+	margin-right: 15px;
+}
+
+div.logos-block a:nth-child(2) img {
+	margin-right: 66px;
+}
+
+div.logos-block a:nth-child(3) img {
+	margin-right: 57px;
+	height: 65%!important;
+	margin-top: 14px!important;
+}
+
+
+div.main-content div.slideshow-container div.slideshow-inner {
+	height: 100%;
+	float: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.main-content div.slideshow-container div.slideshow-inner div.carousel div.carousel-inner div.item img {
+	float: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.main-content div.slideshow-container div.slideshow-inner div.carousel div.carousel-inner div.item div.carousel-caption {
+	background: rgba(0,0,0,.7);
+	font-family: 'Helvetica',Arial,sans-serif;
+}
+
+div.main-content div.slideshow-container div.slideshow-inner div.carousel div.carousel-inner div.item div.carousel-caption h3 {
+	font-size: 20px;
+}
+/* end */
+

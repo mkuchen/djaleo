@@ -1,5 +1,5 @@
 /*************************************************
-	cathie_base.html
+	rickie_base.html
 *************************************************/
 
 /* fonts */
@@ -109,7 +109,7 @@ div#sliding-nav {
     background: #222;
 }
 
-div#sliding-nav div.cath-main-nav {
+div#sliding-nav div.rick-main-nav {
 	width: 1170px;
 	float: center;
 	margin-left: auto;
@@ -118,12 +118,12 @@ div#sliding-nav div.cath-main-nav {
 	height: 100%;
 }
 
-div#sliding-nav div.cath-main-nav div.box {
+div#sliding-nav div.rick-main-nav div.box {
 	float: left;
 	position: absolute;
 }
 
-div#sliding-nav div.cath-main-nav div.box span {
+div#sliding-nav div.rick-main-nav div.box span {
 	position: absolute;
 	background: none;
 	-webkit-transition: all 0.4s ease;
@@ -132,55 +132,55 @@ div#sliding-nav div.cath-main-nav div.box span {
     transition: all 0.4s ease;
 }
 
-div#sliding-nav div.cath-main-nav div.box span.top {
+div#sliding-nav div.rick-main-nav div.box span.top {
 	width:302px;
 	height:1px;
 	top: -1px;
 	left:-140%;
 }
 
-div#sliding-nav.sliding div.cath-main-nav div.box span.top {
+div#sliding-nav.sliding div.rick-main-nav div.box span.top {
 	width: 290px;
 }
 
-div#sliding-nav div.cath-main-nav div.box:hover span.top {
+div#sliding-nav div.rick-main-nav div.box:hover span.top {
 	left:0;
 	background:#ff85a2;
 }
 
-div#sliding-nav div.cath-main-nav div.box span.right {
+div#sliding-nav div.rick-main-nav div.box span.right {
 	height:61px;
 	width:1px;
 	right: -1px;
 	top:-140%;
 }
 
-div#sliding-nav.sliding div.cath-main-nav div.box span.right {
+div#sliding-nav.sliding div.rick-main-nav div.box span.right {
 	height: 49px;
 }
 
-div#sliding-nav div.cath-main-nav div.box:hover span.right {
+div#sliding-nav div.rick-main-nav div.box:hover span.right {
 	top:0;
 	background:#ff85a2;
 }
 
-div#sliding-nav div.cath-main-nav div.box span.bottom {
+div#sliding-nav div.rick-main-nav div.box span.bottom {
 	width:302px;
 	height: 1px;
 	bottom: -1px;
 	right:-140%;
 }
 
-div#sliding-nav.sliding div.cath-main-nav div.box span.bottom {
+div#sliding-nav.sliding div.rick-main-nav div.box span.bottom {
 	width: 290px;
 }
 
-div#sliding-nav div.cath-main-nav div.box:hover span.bottom {
+div#sliding-nav div.rick-main-nav div.box:hover span.bottom {
 	right:0;
 	background:#ff85a2;
 }
 
-div#sliding-nav div.cath-main-nav div.box span.left {
+div#sliding-nav div.rick-main-nav div.box span.left {
 	height:61px;
 	width: 1px;
 	left: -1px;
@@ -188,35 +188,35 @@ div#sliding-nav div.cath-main-nav div.box span.left {
 }
 
 
-div#sliding-nav.sliding div.cath-main-nav div.box span.left {
+div#sliding-nav.sliding div.rick-main-nav div.box span.left {
 	height: 49px;
 }
 
-div#sliding-nav div.cath-main-nav div.box:hover span.left {
+div#sliding-nav div.rick-main-nav div.box:hover span.left {
 	bottom:0;
 	background:#ff85a2;
 }
 
-div#sliding-nav div.cath-main-nav div.box a div.nav-image-container {
+div#sliding-nav div.rick-main-nav div.box a div.nav-image-container {
 	float: left;
 	height: 60px;
 }
 
-div#sliding-nav.sliding div.cath-main-nav div.box a div.nav-image-container {
+div#sliding-nav.sliding div.rick-main-nav div.box a div.nav-image-container {
 	float: left;
 	height: 48px;
 }
 
-div#sliding-nav div.cath-main-nav div.box a div.nav-image-container img {
+div#sliding-nav div.rick-main-nav div.box a div.nav-image-container img {
 	border-radius: 30px;
 }
 
-div#sliding-nav.sliding div.cath-main-nav div.box a div.nav-image-container img {
+div#sliding-nav.sliding div.rick-main-nav div.box a div.nav-image-container img {
 	height: 48px;
 	width: 48px;
 }
 
-div#sliding-nav div.cath-main-nav div.box strong.logo {
+div#sliding-nav div.rick-main-nav div.box strong.logo {
 	font-size: 24px;
 	font-family: RalewayLight;
 	text-decoration: none;
@@ -225,7 +225,7 @@ div#sliding-nav div.cath-main-nav div.box strong.logo {
 	float: left;
 }
 
-div#sliding-nav div.cath-main-nav div.box strong.logo a {
+div#sliding-nav div.rick-main-nav div.box strong.logo a {
 	line-height: 52px;
 	color: #fff;
 	width: 100%;
@@ -234,53 +234,53 @@ div#sliding-nav div.cath-main-nav div.box strong.logo a {
 	padding: 4px 14px;
 }
 
-div#sliding-nav div.cath-main-nav div.box strong.logo a:hover {
+div#sliding-nav div.rick-main-nav div.box strong.logo a:hover {
 	color: #ff85a2;
 	font-weight: normal!important;
 }
 
-div#sliding-nav.sliding div.cath-main-nav div.box strong.logo a {
+div#sliding-nav.sliding div.rick-main-nav div.box strong.logo a {
 	line-height: 40px;
 }
 
-div#sliding-nav div.cath-main-nav div.box strong.logo a:hover {
+div#sliding-nav div.rick-main-nav div.box strong.logo a:hover {
 	text-decoration: none;
 	font-weight: bold;
 }
 
-div#sliding-nav div.cath-main-nav div.navbar-main-collapse {
+div#sliding-nav div.rick-main-nav div.navbar-main-collapse {
 	float: right;
 }
 
-div#sliding-nav div.cath-main-nav div.navbar-main-collapse ul.main {
+div#sliding-nav div.rick-main-nav div.navbar-main-collapse ul.main {
 	margin-top: 6px;
 }
 
-div#sliding-nav.sliding div.cath-main-nav div.navbar-main-collapse ul.main {
+div#sliding-nav.sliding div.rick-main-nav div.navbar-main-collapse ul.main {
 	margin-top: 0;
 }
 
-div#sliding-nav div.cath-main-nav div.navbar-main-collapse ul.main li:last-child a:hover {
+div#sliding-nav div.rick-main-nav div.navbar-main-collapse ul.main li:last-child a:hover {
 	background-color: #2d6ca2;
 }
 
-div#sliding-nav div.cath-main-nav div.navbar-main-collapse ul.main li a {
+div#sliding-nav div.rick-main-nav div.navbar-main-collapse ul.main li a {
 	font-size: 14px;
 	font-family: 'Helvetica',Arial,sans-serif;
 	color: #fff;
 	text-shadow: none!important;
 }
 
-div#sliding-nav div.cath-main-nav div.navbar-main-collapse ul.main li a:hover {
+div#sliding-nav div.rick-main-nav div.navbar-main-collapse ul.main li a:hover {
 	text-decoration: underline;	
 	text-shadow: none!important;
 }
 
-div#sliding-nav div.cath-main-nav div.navbar-main-collapse ul.main li:last-child a {
+div#sliding-nav div.rick-main-nav div.navbar-main-collapse ul.main li:last-child a {
 	color: #fff;
 }
 
-div#sliding-nav div.cath-main-nav div.navbar-main-collapse ul.main li:last-child {
+div#sliding-nav div.rick-main-nav div.navbar-main-collapse ul.main li:last-child {
 	border: 1px solid #fff;
 }
 /* end */

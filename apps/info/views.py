@@ -18,7 +18,14 @@ class TwoView(View):
 		context = {}
 		return render(request, self.template_name, context)
 
+""" RICK VIEWS BEGIN """
 
+class RickHomeView(View):
+	template_name = 'info/cath/rick_home.html'
+
+	def get(self, request, *args, **kwargs):
+		context = {}
+		return render(request, self.template_name, context)
 
 """ CATH VIEWS BEGIN """
 

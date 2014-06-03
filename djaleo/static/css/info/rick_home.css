@@ -1,5 +1,5 @@
 /*************************************************
-	cathie_home.html
+	rickie_home.html
 *************************************************/
 
 /* slideshow */
@@ -424,8 +424,8 @@ div.testimonial div.testimonial-inner div.testimonial-middle {
 }
 /* end */
 
-/* cath-footer section */
-div.cath-footer {
+/* rick-footer section */
+div.rick-footer {
 	width: 100%;
 	position: relative;
 	height: 60px;
@@ -436,7 +436,7 @@ div.cath-footer {
 	padding
 }
 
-div.cath-footer-inner {
+div.rick-footer-inner {
 	height: 100%;
 	min-width: 1170px;
 	padding: 16px;

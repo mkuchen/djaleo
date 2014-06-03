@@ -2,25 +2,25 @@
 {% load staticfiles %}
 
 {% block stylesheets %}
-	<link rel="stylesheet" href="{% static 'css/info/cathie_base.css' %}" />
+	<link rel="stylesheet" href="{% static 'css/info/rickie_base.css' %}" />
 
-	{% block cath_stylesheets %}{% endblock %}
+	{% block rick_stylesheets %}{% endblock %}
 {% endblock %}
 
 
 {% block content %}
 	<div class="top-nav">
 		<div role="navigation" class="navbar-default navbar-static-top" id="sliding-nav">
-			<div class="container cath-main-nav">
+			<div class="container rick-main-nav">
 				<div class="box">
 					<span class="top slide-trans"></span>
 					<span class="right slide-trans"></span>
 					<span class="bottom slide-trans"></span>
 					<span class="left slide-trans"></span>
-					<strong class="logo"><a class="slide-trans" href="/">Cathie Kuchenberg</a></strong>
+					<strong class="logo"><a class="slide-trans" href="/">rickie Kuchenberg</a></strong>
 					<a href="/">
 						<div class="nav-image-container slide-trans">
-							<img src="{% static 'img/cath2.png' %}" width="60" height="60" rel="Cathie Kuchenberg" class="slide-trans">
+							<img src="{% static 'img/rick2.png' %}" width="60" height="60" rel="rickie Kuchenberg" class="slide-trans">
 						</div>
 					</a>
 				</div>
@@ -39,7 +39,7 @@
 			</div>
 		</div>
 	</div>
-	{% block cath_content %}{% endblock %}
+	{% block rick_content %}{% endblock %}
 	
 {% endblock %}
 
@@ -48,6 +48,6 @@
 {% endblock %}
 
 {% block scripts %}
-	<script type="text/javascript" src="{% static 'js/info/cathie_base.js' %}" charset="utf-8"></script>
-	{% block cath_scripts %}{% endblock %}
+	<script type="text/javascript" src="{% static 'js/info/rickie_base.js' %}" charset="utf-8"></script>
+	{% block rick_scripts %}{% endblock %}
 {% endblock %}

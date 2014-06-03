@@ -1,7 +1,7 @@
 from django.conf.urls import patterns, include, url
 from django.conf import settings
 from django.contrib import admin
-from apps.info.views import HomeView, TwoView, CathHomeView, CathAboutView, CathClassesView, CathOneView, CathLocationsView
+from apps.info.views import HomeView, TwoView, RickHomeView, CathHomeView, CathAboutView, CathClassesView, CathOneView, CathLocationsView
 
 admin.autodiscover()
 
@@ -11,6 +11,7 @@ urlpatterns = patterns('',
     # url(r'^blog/', include('blog.urls')),
     url(r'^$', HomeView.as_view(), name='home'),
     url(r'^two/$', TwoView.as_view(), name='two'),
+    url(r'^rick/', RickHomeView.as_view(), name="rick-home"),
     # CATH URLS BEGIN
     url(r'^cath/$', CathHomeView.as_view(), name="cath-home"),
     url(r'^cath/about/$', CathAboutView.as_view(), name="cath-about"),
